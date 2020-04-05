@@ -35,23 +35,31 @@ function main()
     IDS.push(new custID("theboss"));
     IDS.push(new custID("infinitystones"))
     IDS.push(new custID( "Diana"))
+
+
     
-    var value = document.getElementById('SearchID').value;
-    var results = [];
-    if (value) {
-        users.forEach(users => {
-            users.forEach(itemString => {
-                if (itemString.toLowerCase().includes(value.toLowerCase())) {
-                    results.push(`${value} found in ${itemString} in block ${users}`);
-                };
-            });
-        });
-        console.log(results);
-    }
+    const withdraw = [];
+
+    index =0;
+
+    withd.push(new withdraw("4,000,000.00"));
+    withd.push(new withdraw("1000.00"))
+    withd.push(new withdraw("50,000.00"))
+
+
+    const depo= [];
+
+    index =0;
+    
 }
 
+    function fectch() {
+        deposits.fetch(value)
+    }
 
-
+    function myFunction() {
+        let addButton = document.querySelector("#findID");
+        addButton.addEventListener("click",findID);
 
 
 main();
