@@ -39,8 +39,8 @@ function main()
     
 
     find(function(){
-        var IDsearch= document.getElementById("Search ID").customername.length;
-        document.getElementById("IDS").innerHTML = IDsearch + "was found, please enter your deposit and withdrawal amount" 
+        var IDsearch= document.getElementById(customerid).fakeDB.length;
+        document.getElementById("IDS").innerHTML = IDsearch + "was found, please continue" 
     
      
     );
