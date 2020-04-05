@@ -8,11 +8,8 @@ function main()
     
     var customerID= ["theboss", "infinitystones", "diana"];
     
-}
-
-    function fectch() {
-        var x = document.getElementById("myForm").elements.length;
-        document.getElementById("demo").innerHTML = "Found " + x + " elements in the
+    var IDsearch= document.getElementById("Search ID").customername.length;
+    document.getElementById("IDS").innerHTML = IDsearch + "was found, please enter your deposit and withdrawal amount" 
 
 
     }
