@@ -1,3 +1,52 @@
+class DB
+{
+
+    //properties
+    firstname;
+    lastname;
+    balance;
+
+
+    //Constructor
+    constructor(f,l,b)
+    {
+        this.firstname=f;
+        this.lastname=l;
+        this.balance=b;
+    }
+    
+}
+
+
+//entry point of applicaiton 
+function main()
+{
+
+    //fectch elements from the DOM
+    const searchid = document.querySelector("#IDS");
+    let customerid = searchid.value;
+
+
+    const fakeDB = [];
+    index =0;
+
+    fakeDB.push(new DB(""));
+    fakeDB.push(new DB("Iron Man","2.jpg","A picture of Iron Man"))
+    fakeDB.push(new DB("Thor","3.jpg","A picture of Thor"))
+
+    
+
+    setInterval(function(){
+
+            ///
+    },5000);
+
+
+}
+
+
+main();
+
 
 function main()
  {
